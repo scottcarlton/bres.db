@@ -1,8 +1,5 @@
 {
   "Strategies": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
+    "title": { "string": {} }
   }
 }
