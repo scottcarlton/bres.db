@@ -1,12 +1,12 @@
 {
   "Strategy": {
-    "title": { "string": {} },
+    "title": { "regexp": "[A-Z][a-z]{5,200}" } },
     "rules": {
       "hasMany": "Rule"
     }
   },
   "Rule": {
-    "title": { "string": {} },
+    "title": { "regexp": "[A-Z][a-z]{5,200}" } },
     "strategy": {
       "belongsTo": "Strategy"
     }
