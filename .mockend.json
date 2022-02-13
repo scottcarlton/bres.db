@@ -1,5 +1,14 @@
 {
   "Strategy": {
     "title": { "string": {} }
+    "rules": {
+      "hasMany": "Rule"
+    }
+  },
+  "Rule": {
+    "title": { "string": {} }
+    "strategy": {
+      "belongsTo": "Strategy"
+    }
   }
 }
