@@ -1,12 +1,12 @@
 {
   "Strategy": {
-    "title": { "string": {} }
+    "title": { "string": {} },
     "rules": {
       "hasMany": "Rule"
     }
   },
   "Rule": {
-    "title": { "string": {} }
+    "title": { "string": {} },
     "strategy": {
       "belongsTo": "Strategy"
     }
