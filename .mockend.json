@@ -1,7 +1,7 @@
 {
   "Strategy": {
     "title": { "regexp": "[A-Z][a-z]{5,10}" } },
-    "rules": 
+    "rules": {
       "hasMany": "Rule"
     }
   },
